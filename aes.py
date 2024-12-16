@@ -26,11 +26,12 @@ padded_shellcode = pad(shellcode, AES.block_size)
 # Encrypt the padded shellcode
 encrypted_shellcode = cipher.encrypt(padded_shellcode)
 
-#Uncomment if you'd plan to change key/IV, as you'll need this to update butterfly_effect
+#Uncomment if you'd plan to change key/IV, as you'll need this to update butterflyeffect
 #print("byte[] key = new byte[] { " + csharp_byte_array_key + " };")
 #print("byte[] iv = new byte[] { " + csharp_byte_array_iv + " };")
 
 with open("cipher.bin", "wb") as f:
-        f.write(encrypted_shellcode)
+    f.write(encrypted_shellcode)
 
 print("Encrypted shellcode has been written to file: cipher.bin")
+
