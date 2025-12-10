@@ -5,10 +5,6 @@ loader.cs
 loader.vba
 loader.vbs
 
-# Raw shellcode / payloads
-*.bin
-*.tar
-
 # PE files 
 *.exe
 *.dll
