@@ -1,0 +1,18 @@
+# Donut output files
+loader.bin
+loader.h
+loader.cs
+loader.vba
+loader.vbs
+
+# Raw shellcode / payloads
+*.bin
+*.tar
+
+# PE files 
+*.exe
+*.dll
+
+# Mimikatz or other tools
+mimikatz/
+mimikatz/**
