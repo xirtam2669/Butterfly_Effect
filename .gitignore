@@ -12,3 +12,4 @@ loader.vbs
 # Mimikatz or other tools
 mimikatz/
 mimikatz/**
+*mimikatz*
