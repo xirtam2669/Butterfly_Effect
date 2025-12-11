@@ -45,8 +45,6 @@ def main():
             result = donut.create(
                 file=input_file,
                 arch=2,  # x64
-                bypass=3,
-                format=1,  # RAW
             )
             shellcode = result
             print(f"[+] Donut shellcode size: {len(shellcode)} bytes")
